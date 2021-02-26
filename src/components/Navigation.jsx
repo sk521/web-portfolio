@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, LinkedIn } from "../assets/svg/icons"
+import { Github, LinkedIn, Medium } from "../assets/svg/icons"
 
 export const Navigation = () => {
   return (
@@ -13,13 +13,20 @@ export const Navigation = () => {
                 <Github />
               </span>
             </li>
+            <li className="icon">
+              <span className="main">
+                <LinkedIn />
+              </span>
+            </li>
+            <li className="icon">
+              <span className="main">
+                <Medium />
+              </span>
+            </li>
           </ul>
         </li>
       </ul>
     </nav>
-    <span className="main">
-      <LinkedIn />
-    </span>
     </>
   )
 }
