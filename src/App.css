@@ -41,6 +41,10 @@ ul {
   list-style: none;
 }
 
-.icon {
-  fill: #3A8370;
+body {
+  color: #3A8370;
+}
+
+a {
+  text-decoration: none;
 }

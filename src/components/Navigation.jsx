@@ -39,8 +39,21 @@ const LeftContainer = styled.ul`
 
 const Icon = styled.span`
   fill: #3A8370;
+  padding: 18px 16px;
+  color: #3A8370;
 `;
 
+const Right = styled.li`
+  display: inline-block
+`;
+
+const RightContainer = styled.ul`
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+`;
 
 
 export const Navigation = () => {
@@ -85,22 +98,51 @@ export const Navigation = () => {
             </li>
           </LeftContainer>
         </Left>
-        <li className="right">
-          <ul>
+
+        <Right>
+          <RightContainer>
             <li>
-              Home
+              <a
+                offset="0"
+                href="#home"
+              >
+                <Icon>
+                  Home
+                </Icon>
+              </a>
             </li>
             <li>
-              About
+              <a
+                offset="0"
+                href="#about"
+              >
+                <Icon>
+                  About
+                </Icon>
+              </a>
             </li>
             <li>
-              Work
+              <a
+                offset="0"
+                href="#work"
+              >
+                <Icon>
+                  Work
+                </Icon>
+              </a>
             </li>
             <li>
-              Contact
+              <a
+                offset="0"
+                href="#contact"
+              >
+                <Icon>
+                  Contact
+                </Icon>
+              </a>
             </li>
-          </ul>
-        </li>
+          </RightContainer>
+        </Right>
       </Container>
     </Nav>
     </>
