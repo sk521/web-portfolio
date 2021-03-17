@@ -3,7 +3,6 @@ import { Github, LinkedIn, Medium } from "../assets/svg/icons"
 
 
 const Nav = styled.nav`
-  background-color: #201F1F;
   position: fixed;
   top: 0;
   left: 0;
