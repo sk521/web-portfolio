@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 const Info = styled.div`
-  padding: 250px 200px 0px;
+  padding: 250px 150px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: 1920px;
+  align-items: center;
 `;
 
 const Hello = styled.h1`
@@ -13,9 +14,9 @@ const Hello = styled.h1`
   font-family: "Roboto", "Lato", sans-serif;
 `;
 
-const Line = styled.hr`
-  color: #FFFFFF;
+const Line = styled.span`
   width: 10%;
+  border-bottom: 1px solid #FFFFFF
 `;
 
 export const Home = () => {
