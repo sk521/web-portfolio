@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Info = styled.div`
-  padding: 250px 150px 0px;
+  padding: 150px 150px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,13 +10,27 @@ const Info = styled.div`
 `;
 
 const Hello = styled.h1`
-  font-size: 5em;
+  font-size: 9em;
   font-family: "Roboto", "Lato", sans-serif;
+  letter-spacing: 0.1em;
 `;
 
 const Line = styled.span`
   width: 10%;
-  border-bottom: 1px solid #FFFFFF
+  border-bottom: 2px solid #F5F5F5;
+  margin: 0.1em;
+`;
+
+const Intro = styled.p`
+  color: #F5F5F5;
+  text-align: left;
+  font-size: 1.35em;
+  margin-left: 1.2em;
+`;
+
+const Name = styled.span`
+  color: #3A8370;
+  font-weight: bold;
 `;
 
 export const Home = () => {
@@ -25,9 +39,11 @@ export const Home = () => {
       <Info>
         <Hello>HELLO</Hello>
         <Line></Line>
-        <p>
-          I'm Samuel, a developer based in NJ/NYC. I like to build digital experiences that help people. Lets build something together.
-        </p>
+        <Intro>
+          I'm <Name>Samuel</Name>, a developer based in NJ/NYC.<br></br>
+          I like to build digital experiences that help people.<br></br>
+          Lets build something together.
+        </Intro>
       </Info>
     </section>
   )
