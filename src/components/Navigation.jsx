@@ -39,6 +39,7 @@ const Icon = styled.span`
   fill: #3A8370;
   padding: 18px 16px;
   color: #3A8370;
+  letter-spacing: 0.08em;
 `;
 
 const Right = styled.li`
