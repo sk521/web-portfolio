@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+const Section = styled.section`
+  position: relative;
+  height: 95vh;
+`;
+
 const Info = styled.div`
   padding: 150px 150px 0px;
   display: flex;
@@ -35,7 +40,7 @@ const Name = styled.span`
 
 export const Home = () => {
   return (
-    <section>
+    <Section>
       <Info>
         <Hello>HELLO</Hello>
         <Line></Line>
@@ -45,6 +50,6 @@ export const Home = () => {
           Lets build something together.
         </Intro>
       </Info>
-    </section>
+    </Section>
   )
 }
