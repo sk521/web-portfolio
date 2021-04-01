@@ -7,7 +7,8 @@ const Nav = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 300
+  z-index: 300;
+  background-color: #201F1F;
 `;
 
 const Container = styled.ul`
