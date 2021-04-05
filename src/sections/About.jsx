@@ -15,7 +15,7 @@ const AboutTitle = styled.h1`
 
 const AboutParagraph = styled.p`
   color: #F5F5F5;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
 `;
 
