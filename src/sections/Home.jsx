@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Section = styled.section`
   position: relative;
-  height: 95vh;
+  height: 90vh;
 `;
 
 const Info = styled.div`
