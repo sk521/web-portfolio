@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-// import { images, Images } from "../assets/images";
+import HangmanImage from "../assets/images/hangman/hangman.jpg";
 import { WorkCard } from '../components/WorkCard';
 
 const Section = styled.section`
@@ -36,13 +36,13 @@ const WorkWrapper = styled.ul`
 //   transition: all .2s;
 // `;
 
-const Image = styled.div``;
+// const Image = styled.div``;
 
-const ImageContainer = styled.div``;
+// const ImageContainer = styled.div``;
 
-const TagList = styled.ul``;
+// const TagList = styled.ul``;
 
-const Text = styled.div``;
+// const Text = styled.div``;
 
 export const Work = () => {
   return (
@@ -52,13 +52,15 @@ export const Work = () => {
         <WorkWrapper>
           <WorkCard
             title={"Hangman"}
-            description={"Hangman game built with a Gameboy design theme"}
+            description={"Hangman game designed to be like playing on a Gameboy. Users can select their difficulty and have six tries to guess the word."}
             tags={["React.js"]}
+            image={HangmanImage}
           />
-          <WorkCard
+          {/* <WorkCard
             title={"hello"}
             tags={[]}
-           />
+            image={}
+           /> */}
         </WorkWrapper>
       </Content>
     </Section>
