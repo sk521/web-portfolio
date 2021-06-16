@@ -10,6 +10,7 @@ export const Main = () => {
       <Home />
       <About />
       <Work />
+      <Skill />
       <Contact />
     </div>
   )
