@@ -16,10 +16,18 @@ const SkillTitle = styled.h1`
   letter-spacing: 0.05em;
 `;
 
-const SkillsContainer = styled.div`
+const SkillsContainer = styled.ul`
   display: flex;
   width: 80%;
   margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+`;
+
+const SkillIcon = styled.li`
+  margin: 1em;
 `;
 
 export const Skill = () => {
@@ -28,15 +36,33 @@ export const Skill = () => {
       <Content>
         <SkillTitle>Skills</SkillTitle>
         <SkillsContainer>
-          <JavaScriptIcon />
-          <NodeJSIcon />
-          <ReactIcon />
-          <ReduxIcon />
-          <TypescriptIcon />
-          <HTMLIcon />
-          <CSSIcon />
-          <PostGresSqlIcon />
-          <GitSkillIcon />
+          <SkillIcon>
+            <JavaScriptIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <NodeJSIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <ReactIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <ReduxIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <TypescriptIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <HTMLIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <CSSIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <PostGresSqlIcon />
+          </SkillIcon>
+          <SkillIcon>
+            <GitSkillIcon />
+          </SkillIcon>
         </SkillsContainer>
       </Content>
     </Section>
