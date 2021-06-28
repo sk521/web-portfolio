@@ -19,31 +19,9 @@ const WorkTitle = styled.h1`
 `;
 
 const WorkWrapper = styled.ul`
-  // grid-gap: 100px 64px;
-  // grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
-  // margin: 0;
-  // padding: 0;
-  // grid-auto-rows: 1fr;
   display: flex;
   flex-direction: column;
 `;
-
-// const WorkCard = styled.div`
-//   padding: 20px 20px 0;
-//   background-color: #fff;
-//   box-shadow: 0 0 20px rgb(0 0 0 /16%);
-//   border-radius: 3px;
-//   cursor: pointer;
-//   transition: all .2s;
-// `;
-
-// const Image = styled.div``;
-
-// const ImageContainer = styled.div``;
-
-// const TagList = styled.ul``;
-
-// const Text = styled.div``;
 
 export const Work = () => {
   return (
