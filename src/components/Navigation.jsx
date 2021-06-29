@@ -18,7 +18,7 @@ const Container = styled.ul`
   width: 80%;
   margin: auto;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   justify-content: space-between;
   font-weight: 700;
   padding: 20px 0px;
@@ -41,6 +41,10 @@ const Icon = styled.span`
   padding: 18px 16px;
   color: #3A8370;
   letter-spacing: 0.08em;
+  &:hover {
+    fill: #F5F5F5;
+    transition: 0.7s;
+  }
 `;
 
 const Right = styled.li`
