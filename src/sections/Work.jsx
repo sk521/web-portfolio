@@ -44,7 +44,6 @@ export const Work = () => {
             image={MobileImage521ATE}
             width={"50%"}
             height={"50%"}
-            // preview={[]}
             github={["https://github.com/1710-capstone-521ATE/capstone"]}
            />
         </WorkWrapper>

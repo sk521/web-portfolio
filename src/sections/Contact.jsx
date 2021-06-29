@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { LinkedInContactIcon, EmailContactIcon } from "../assets/svg/icons"
 
 const Section = styled.section`
+  padding-top: 10em;
 `;
 
 const Content = styled.div`
@@ -19,18 +20,18 @@ const ContactParagraph = styled.p`
   color: #F5F5F5;
 `;
 
-const Icon = styled.span`
-  fill: #3A8370;
-  padding: 18px 16px;
-  color: #3A8370;
-  letter-spacing: 0.08em;
-  width: 90px;
-  height: 90px;
-`;
-
 const ContactIconContainer = styled.ul`
   display: flex;
   justify-content: center;
+`;
+
+const IconWrapper = styled.span`
+  fill: #3A8370;
+  padding: 18px 16px;
+  color: #3A8370;
+  &:hover {
+    fill: #F5F5F5;
+  }
 `;
 
 export const Contact = () => {
@@ -48,20 +49,20 @@ export const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon>
+                <IconWrapper>
                   <LinkedInContactIcon />
-                </Icon>
+                </IconWrapper>
               </a>
             </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/samuel-kwon/"
+              href="mailto:samkwon521@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               >
-                <Icon>
+                <IconWrapper>
                   <EmailContactIcon />
-                </Icon>
+                </IconWrapper>
               </a>
           </li>
         </ContactIconContainer>
