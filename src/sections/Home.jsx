@@ -6,7 +6,8 @@ const Section = styled.section`
 `;
 
 const Info = styled.div`
-  padding: 150px 150px 0px;
+  padding: 130px 210px 0px;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,6 +32,8 @@ const Intro = styled.p`
   text-align: left;
   font-size: 1.35em;
   margin-left: 1.2em;
+  margin-right: 1.2em;
+  width: 30%;
 `;
 
 const Name = styled.span`
@@ -45,7 +48,7 @@ export const Home = () => {
         <Hello>HELLO</Hello>
         <Line></Line>
         <Intro>
-          I'm <Name>Samuel</Name>, a developer based in NJ/NYC.<br></br>
+          I'm <Name>Samuel</Name>, a developer based in NJ/NYC.
           I like to build digital experiences that help people.<br></br>
           Lets build something together.
         </Intro>
