@@ -43,6 +43,7 @@ const Icon = styled.span`
   letter-spacing: 0.08em;
   &:hover {
     fill: #F5F5F5;
+    color: #F5F5F5;
     transition: 0.7s;
   }
 `;
