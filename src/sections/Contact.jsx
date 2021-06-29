@@ -31,6 +31,7 @@ const IconWrapper = styled.span`
   color: #3A8370;
   &:hover {
     fill: #F5F5F5;
+    transition: 0.7s;
   }
 `;
 

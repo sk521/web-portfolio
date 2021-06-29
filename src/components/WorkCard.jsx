@@ -79,9 +79,11 @@ const PreviewIconTextLink = styled.a`
   align-items: center;
   &:hover ${TextLink} {
     color: #F5F5F5;
+    transition: 0.7s;
   }
   &:hover ${Icon} {
     fill: #F5F5F5;
+    transition: 0.7s;
   }
 `;
 
@@ -90,9 +92,11 @@ const GithubIconTextLink = styled.a`
   align-items: center;
   &:hover ${TextLink} {
     color: #F5F5F5;
+    transition: 0.7s;
   }
   &:hover ${Icon} {
     fill: #F5F5F5;
+    transition: 0.7s;
   }
 `;
 
