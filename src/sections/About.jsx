@@ -21,7 +21,7 @@ const AboutParagraph = styled.p`
 
 export const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <Content>
         <AboutTitle>About</AboutTitle>
         <AboutParagraph>

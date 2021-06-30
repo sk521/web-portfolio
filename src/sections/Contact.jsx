@@ -3,6 +3,7 @@ import { LinkedInContactIcon, EmailContactIcon } from "../assets/svg/icons"
 
 const Section = styled.section`
   padding-top: 10em;
+  padding-bottom: 9em;
 `;
 
 const Content = styled.div`
@@ -37,7 +38,7 @@ const IconWrapper = styled.span`
 
 export const Contact = () => {
   return (
-    <Section>
+    <Section id="contact">
       <Content>
         <ContactTitle>Contact</ContactTitle>
         <ContactParagraph>

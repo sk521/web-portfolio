@@ -25,7 +25,7 @@ const WorkWrapper = styled.ul`
 
 export const Work = () => {
   return (
-    <Section>
+    <Section id="work">
       <Content>
         <WorkTitle>Work</WorkTitle>
         <WorkWrapper>
