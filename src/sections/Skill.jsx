@@ -32,7 +32,7 @@ const SkillIcon = styled.li`
 
 export const Skill = () => {
   return (
-    <Section>
+    <Section id="skills">
       <Content>
         <SkillTitle>Skills</SkillTitle>
         <SkillsContainer>

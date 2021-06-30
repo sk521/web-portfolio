@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Github, LinkedIn, Medium } from "../assets/svg/icons"
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Nav = styled.nav`
@@ -107,44 +108,54 @@ export const Navigation = () => {
         <Right>
           <RightContainer>
             <li>
-              <a
-                offset="0"
+              <AnchorLink
+                offset="100"
                 href="#home"
               >
                 <Icon>
                   Home
                 </Icon>
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
-                offset="0"
+              <AnchorLink
+                offset="210"
                 href="#about"
               >
                 <Icon>
                   About
                 </Icon>
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
+              <AnchorLink
                 offset="0"
                 href="#work"
               >
                 <Icon>
                   Work
                 </Icon>
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a
+              <AnchorLink
+                offset="-40"
+                href="#skills"
+              >
+                <Icon>
+                  Skills
+                </Icon>
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink
                 offset="0"
                 href="#contact"
               >
                 <Icon>
                   Contact
                 </Icon>
-              </a>
+              </AnchorLink>
             </li>
           </RightContainer>
         </Right>

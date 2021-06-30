@@ -43,7 +43,7 @@ const Name = styled.span`
 
 export const Home = () => {
   return (
-    <Section>
+    <Section id="home">
       <Info>
         <Hello>HELLO</Hello>
         <Line></Line>
