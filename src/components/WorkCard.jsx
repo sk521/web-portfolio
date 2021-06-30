@@ -21,6 +21,8 @@ const Description = styled.p`
   color: #F5F5F5;
   font-size: 1.75em;
   margin: 30px;
+  text-align: left;
+  padding-left: 1.2em;
 `;
 
 const LeftContainer = styled.div`
@@ -35,7 +37,8 @@ const RightContainer = styled.div`
 const TagList = styled.ul`
   display: flex;
   justify-content: space-around;
-  padding: 10px
+  padding: 10px;
+  margin: 25px;
 `;
 
 const TechTag = styled.li`
