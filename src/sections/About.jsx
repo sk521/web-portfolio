@@ -16,7 +16,8 @@ const AboutTitle = styled.h1`
 const AboutParagraph = styled.p`
   color: #F5F5F5;
   font-size: 1.75em;
-  text-align: center;
+  text-align: left;
+  padding: 0px 55px 0px 55px;
 `;
 
 export const About = () => {
