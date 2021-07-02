@@ -50,7 +50,7 @@ export const Home = () => {
         <Intro>
           I'm <Name>Samuel</Name>, a developer based in NJ/NYC.
           I like to build digital experiences that help people.<br></br>
-          Lets build something together.
+          Let's build something together.
         </Intro>
       </Info>
     </Section>
